@@ -1,5 +1,6 @@
 body{
-  background: rgb(0, 0, 0);
+  background: rgb(128, 123, 123);
+  margin-top: 100px;
 }
 *{
   padding: 0%;
@@ -38,9 +39,14 @@ img{
     margin: auto;
  background-color: transparent;
 }
+.payhip-green-styled-button {
+  width: 100px;
+  height: 40px;
+  line-height: 35px;
+}
 .payhip-buy-button{
     display: block;
-    margin-left: 50%;
+    margin-left: 40%;
     margin-right: 50%;
      margin-top: 20px;
 }
@@ -64,9 +70,11 @@ img{
   background-color:#fff;
 }
 #arriva{
+  margin-top: -100px;
+  position: fixed;
   text-align: center;
   font-size: 30px;
-  color: red;
+  color: rgb(51, 255, 0);
   width: 100%;
   height: 50px;
   background:  #000;
@@ -102,6 +110,7 @@ img{
     margin-left: 40%;
     margin-right: 50%;
      margin-top: 20px;
+    
 }
 .texto{
   text-align: center;
