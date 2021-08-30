@@ -1,0 +1,220 @@
+body{
+  background: rgb(255, 255, 255);
+  margin-top: 100px;
+}
+*{
+  padding: 0%;
+  margin: 0%;
+}
+h1{
+  font-size: 10px;
+  border-radius: 2px;
+  color: rgb(0, 0, 0);
+background: #fff;
+}
+h2{
+  font-size: 40PX;
+  margin-block-end: 10px;
+  color: red;
+ border-radius: 5px;
+  width: 100px;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+}
+.vo{
+  display: block;
+margin-left: -50px;}
+img{
+  margin-block-end: 30px;
+  border-top: 20px;
+  border: 1px solid rgb(95, 95, 95);
+  border-radius: 4px;
+  padding: 5px;
+  width: 350px;
+  display: block;
+  margin: auto;
+  height: 250px;
+}
+.v {
+    display: block;
+    margin: auto;
+ background-color: transparent;
+}
+.payhip-green-styled-button {
+  width: 100px;
+  height: 40px;
+  line-height: 35px;
+}
+h3{
+  margin-left: 100px;
+}
+P{
+  text-align: left;
+  margin-left: 5PX;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.payhip-buy-button{
+    display: block;
+    margin-left: 35%;
+    margin-right: 50%;
+     margin-top: 10px;
+     height: 25PX;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+a{
+  color: #25d366;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace
+}
+.fo{
+  position: absolute;
+  margin-block-end: 0px;
+  text-align: center;
+  font-size: 25px;
+  margin: auto;
+  background-color: rgb(0, 0, 0);
+  color: red;
+  width: 100%;
+  height: 80px;
+  
+}
+
+.l li{
+ 
+  display: inline-block;
+  font-size: 20px;
+  background-color: #000000;
+}
+.l a{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 5px;
+  color: rgb(255, 255, 255);
+  display: block;
+}
+a:hover
+{
+  color: red;
+  background-color: rgb(255, 255, 255);
+}
+
+.home{
+  display: block;
+  float: right;
+  margin-top: -40px;
+ margin-right: 100px;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+#arriva{
+  margin-top: -100px;
+  position: fixed;
+  text-align: left;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 50px;
+  background:  #000;
+  
+}
+.i{
+margin-block-end: 20px;
+}
+.texto{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 250PX;
+  height: 100px;
+  align-items: center;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+  background: rgb(204, 202, 202);
+margin-block-end: 20px;
+}
+.my-float{
+	margin-top:16px;
+}
+.payhip-buy-button{
+  width: 90px;
+}
+@media  (max-width:400px) {
+  img{
+    width: 70%;
+  }
+  .l li{
+ 
+    display: inline-block;
+    font-size: 10px;
+    background-color: #000000;
+  }
+  .home{
+    display: block;
+    float: right;
+    margin-top: -40px;
+   margin-right: 40px;
+  }
+  h3{
+    margin-left: 0px;
+  }
+}
+@media (max-width:700px) {
+  h3{
+    margin-left: 0px;
+  }
+}
+@media (max-width:599px){
+  .home{
+    display: block;
+    float: right;
+    margin-top: -40px;
+   margin-right: 0px;
+  }
+  body{
+    background-color: rgb(255, 255, 255);
+  }
+  .l li{
+ 
+    display: inline-block;
+    font-size: 15px;
+    background-color: #000000;
+  }
+  h3{
+    font-size: 30px;
+  }
+  @media (max-width:412px){
+    .l a{
+      font-family: serif;
+      margin-left: 3px;
+      color: rgb(255, 255, 255);
+      display: block;
+    }
+    .l li{
+ 
+      display: inline-block;
+      font-size: 15px;
+      background-color: #000000;
+    }
+    body{
+ background-color: rgb(255, 255, 255);
+    }
+  }
+
+}
