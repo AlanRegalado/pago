@@ -163,7 +163,7 @@ margin-block-end: 20px;
  
     display: inline-block;
     font-size: 10px;
-    background-color: #000000;
+
   }
   .home{
     display: block;
@@ -188,13 +188,13 @@ margin-block-end: 20px;
    margin-right: 0px;
   }
   body{
-    background-color: rgb(255, 255, 255);
+    
   }
   .l li{
  
     display: inline-block;
     font-size: 15px;
-    background-color: #000000;
+   
   }
   h3{
     font-size: 30px;
@@ -212,9 +212,7 @@ margin-block-end: 20px;
       font-size: 15px;
       background-color: #000000;
     }
-    body{
- background-color: rgb(255, 255, 255);
-    }
+  
   }
 
 }
