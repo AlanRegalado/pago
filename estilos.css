@@ -118,6 +118,8 @@ a:hover
 }
 
 .home{
+	
+  line-height: 40px;
   display: block;
   float: right;
   margin-top: -40px;
